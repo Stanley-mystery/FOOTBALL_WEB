@@ -1,0 +1,34 @@
+.Header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	padding: 1rem 5rem;
+}
+
+.logo {
+	background-color: rgba(104, 103, 103, 0.199);
+	padding: 0.5rem;
+	border-radius: 10px;
+}
+
+.logo > :nth-child(1) {
+	color: var(--darkBlue);
+}
+.logo > :nth-child(2) {
+	color: var(--lightOrange);
+}
+.logo > :nth-child(3) {
+	color: gray;
+	font-size: 15px;
+}
+
+.header-nav {
+	display: flex;
+	font-size: smaller;
+	justify-content: space-between;
+	gap: 1rem;
+	list-style: none;
+	color: var(--darkBlue);
+}
