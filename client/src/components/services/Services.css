@@ -1,0 +1,12 @@
+.Services {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem 2rem;
+	gap: 1rem;
+	align-items: center;
+	height: 50rem;
+}
+
+.Services > :nth-child(2) {
+	font-size: 3rem;
+}

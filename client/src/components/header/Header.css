@@ -4,8 +4,10 @@
 	align-items: center;
 	text-transform: uppercase;
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-	padding: 1rem 5rem;
-	height: 6rem;
+	padding: 0 2rem;
+
+	height: 4rem;
+	font-weight: bold;
 }
 
 .logo {
@@ -16,7 +18,7 @@
 }
 
 .logo > :nth-child(1) {
-	color: var(--darkBlue);
+	color: black;
 }
 .logo > :nth-child(2) {
 	color: orange;
@@ -32,7 +34,7 @@
 	justify-content: space-between;
 	gap: 1rem;
 	list-style: none;
-	color: var(--darkBlue);
+	color: black;
 }
 
 .header-nav > li:hover {
