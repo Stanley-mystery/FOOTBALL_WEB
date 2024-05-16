@@ -5,9 +5,11 @@
 	text-transform: uppercase;
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 	padding: 1rem 5rem;
+	height: 6rem;
 }
 
 .logo {
+	cursor: pointer;
 	background-color: rgba(104, 103, 103, 0.199);
 	padding: 0.5rem;
 	border-radius: 10px;
@@ -17,7 +19,7 @@
 	color: var(--darkBlue);
 }
 .logo > :nth-child(2) {
-	color: var(--lightOrange);
+	color: orange;
 }
 .logo > :nth-child(3) {
 	color: gray;
@@ -31,4 +33,13 @@
 	gap: 1rem;
 	list-style: none;
 	color: var(--darkBlue);
+}
+
+.header-nav > li:hover {
+	transition: 0.5s;
+}
+
+.header-nav > li:hover {
+	cursor: pointer;
+	color: var(--lightOrange);
 }

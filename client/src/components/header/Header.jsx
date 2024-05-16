@@ -11,8 +11,8 @@ const Header = () => {
 			</h3>
 			<ul className="header-nav">
 				<li>home</li>
-				<li>cleaning Service</li>
-				<li>floor Care</li>
+				<li>about us</li>
+				<li>our services</li>
 				<li>Contact us</li>
 			</ul>
 		</div>

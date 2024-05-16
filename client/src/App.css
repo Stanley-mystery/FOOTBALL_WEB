@@ -2,4 +2,10 @@
 	--darkBlue: rgb(3, 3, 119);
 	--lightOrange: rgb(250, 174, 34);
 	--lightBlue: rgb(120, 120, 245);
+	--darkBlue: rgb(54, 54, 199);
+}
+
+::-webkit-scrollbar {
+	display: none;
+	color: blue;
 }
