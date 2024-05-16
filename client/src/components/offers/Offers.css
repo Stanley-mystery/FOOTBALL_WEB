@@ -20,6 +20,7 @@
 	background-color: orange;
 	padding: 1rem 1rem;
 	border-radius: 15px;
+	/* height: 10rem; */
 }
 
 .left-o > span > p {
@@ -49,6 +50,7 @@ img {
 	position: absolute;
 	background-color: orange;
 	width: 20rem;
+	height: 5rem;
 	color: white;
 	font-weight: bold;
 	font-size: 1.3rem;
