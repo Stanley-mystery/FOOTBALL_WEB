@@ -1,27 +1,28 @@
-import cleaningImage1 from "../assets/still-life-cleaning-tools.jpg";
-
-import cleaningImage2 from "../assets/hands-holding-cleaning-tools-solutions.jpg";
-
-import cleaningImage3 from "../assets/person-taking-care-office-cleaning (1).jpg";
+import cleaningImage1 from "../assets/man-cleaning-window.jpg";
+import cleaningImage2 from "../assets/front-view-woman-cleaning-home.jpg";
+import cleaningImage3 from "../assets/person-taking-care-office-cleaning.jpg";
 
 const servicesData = [
 	{
-		image1: cleaningImage1,
-		title1: "Window Cleaning",
-		content1:
-			"Elevate your home's sparkle with ecoclean services ultimate home cleaning Experience globally	expert home cleaners for simple spotless cleaning",
+		image: cleaningImage1,
+		title: "Regular cleaning",
+		amount: "95",
+		content:
+			"Sweeping Vacuuming & Mopping. Cabinets & Wardrobe Organizing. Kitchen Cleaning & Organizing. Dishwashing & Cleaning of KItchen Appliances....",
 	},
 	{
-		image2: cleaningImage2,
-		title2: "Vacuuming",
-		content2:
-			"Elevate your home's sparkle with ecoclean services ultimate home cleaning Experience globally	expert home cleaners for simple spotless cleaning",
+		image: cleaningImage2,
+		title: "deep cleaning",
+		amount: "359",
+		content:
+			"Dusting all Articles & Fictures. Vacuuming the Carpets & Furniture. Washing all Floors. Cleaning Appliances, Counters, Tables, Chairs.....",
 	},
 	{
-		image3: cleaningImage3,
-		title3: "Window Cleaning",
-		content3:
-			"Elevate your home's sparkle with ecoclean services ultimate home cleaning Experience globally	expert home cleaners for simple spotless cleaning",
+		image: cleaningImage3,
+		title: "outdoor cleaning",
+		amount: "235",
+		content:
+			"Dusting all Articles & Fixtures. Vacuuming the Carpets. Washing all Floor. Cleaning Appliances, Counters, Tables, Chairs",
 	},
 ];
 
