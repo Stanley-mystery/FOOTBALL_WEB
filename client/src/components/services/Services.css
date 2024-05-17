@@ -4,7 +4,7 @@
 	padding: 2rem 2rem;
 	gap: 1rem;
 	align-items: center;
-	height: 50rem;
+	height: 85rem;
 }
 
 .Services > :nth-child(2) {
@@ -57,6 +57,7 @@
 }
 
 .service > :nth-child(1) > img {
+	cursor: pointer;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
 	height: 300px;

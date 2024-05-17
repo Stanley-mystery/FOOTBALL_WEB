@@ -1,6 +1,6 @@
 import cleaningImage1 from "../assets/man-cleaning-window.jpg";
 import cleaningImage2 from "../assets/front-view-woman-cleaning-home.jpg";
-import cleaningImage3 from "../assets/person-taking-care-office-cleaning.jpg";
+import cleaningImage3 from "../assets/woman-collects-leaves-cleans-park.jpg";
 
 const servicesData = [
 	{
