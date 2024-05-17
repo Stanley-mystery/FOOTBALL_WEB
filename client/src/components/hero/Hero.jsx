@@ -11,7 +11,7 @@ const Hero = () => {
 		],
 		loop: {},
 		typeSpeed: 120,
-		deleteSpeed: 10,
+		deleteSpeed: 60,
 	});
 
 	return (
