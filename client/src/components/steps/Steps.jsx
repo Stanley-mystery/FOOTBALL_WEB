@@ -1,5 +1,6 @@
 import React from "react";
 import "./Steps.css";
+import { color, motion } from "framer-motion";
 
 const Steps = () => {
 	return (
