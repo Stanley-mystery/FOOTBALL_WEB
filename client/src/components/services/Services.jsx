@@ -16,13 +16,7 @@ const Services = () => {
 			>
 				EcoClean Services management services
 			</span>
-			<h1>Offering Top Rated Home Cleaning Solutions Globally.</h1>
-			<h3 style={{ color: "gray" }}>
-				Experience the Ultimate Cleaning Solutions with EcoClean Services
-				Globally.From apartments to villas, trust the most riliable name
-				Globally in cleaning scene. Make your home simply spotless with EcoClean
-				Services, your trusted partner for premium home cleaning requirements.
-			</h3>
+
 			<div className="services-wrapper">
 				<h1>Our Cleaning services</h1>
 				<span style={{ fontSize: "20px", color: "orange" }}>

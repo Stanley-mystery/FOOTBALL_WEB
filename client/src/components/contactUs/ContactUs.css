@@ -1,6 +1,7 @@
 .ContactUs {
 	display: flex;
 	justify-content: center;
+	height: 35rem;
 }
 
 .left-c {
@@ -25,12 +26,13 @@
 }
 
 .contacf-info > :nth-child(2) {
-	padding: 0.5rem 2rem;
+	padding: 1rem 2rem;
+	margin-left: 10px;
 	background-color: orange;
 	color: white;
 	border: none;
-	border-radius: 5px;
-	font-weight: bold;
+	border-radius: 25px;
+	font-weight: bolder;
 	cursor: pointer;
 }
 

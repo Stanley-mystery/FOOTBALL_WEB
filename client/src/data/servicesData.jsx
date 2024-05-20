@@ -8,14 +8,14 @@ const servicesData = [
 		title: "Regular cleaning",
 		amount: "95",
 		content:
-			"Sweeping Vacuuming & Mopping. Cabinets & Wardrobe Organizing. Kitchen Cleaning & Organizing. Dishwashing & Cleaning of KItchen Appliances....",
+			"Sweeping Vacuuming & Mopping. Cabinets & Wardrobe Organizing. Kitchen Cleaning & Organizing. Dishwashing & .......",
 	},
 	{
 		image: cleaningImage2,
 		title: "deep cleaning",
 		amount: "359",
 		content:
-			"Dusting all Articles & Fictures. Vacuuming the Carpets & Furniture. Washing all Floors. Cleaning Appliances, Counters, Tables, Chairs.....",
+			"Dusting all Articles & Fictures. Vacuuming the Carpets & Furniture. Washing all Floors. Cleaning Appliances, Counters......",
 	},
 	{
 		image: cleaningImage3,
