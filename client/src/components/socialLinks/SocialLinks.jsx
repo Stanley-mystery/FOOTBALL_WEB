@@ -1,25 +1,36 @@
 import React from "react";
 import "./SocialLink.css";
-import { FaInstagram, FaTiktok } from "react-icons/fa";
+import instagramImg from "../../assets/skill-icons_instagram.png";
+import facebookImg from "../../assets/logos_facebook.png";
+import tiktokImg from "../../assets/3d-realistic-isolated-isometric-tiktok-icon.jpg";
+import youtubeImg from "../../assets/logos_youtube-icon.png";
 
 const SocialLinks = () => {
 	return (
 		<div className="SocialLinks">
-			<span className="title">our social links </span>
-			<div className="con">
-				<span className="icon-con">
-					<FaInstagram
-						style={{ width: "10rem", height: "10rem", cursor: "pointer" }}
-					/>{" "}
-				</span>
-				<span className="icon-con">
-					<FaTiktok
-						style={{ width: "10rem", height: "10rem", cursor: "pointer" }}
-					/>
-				</span>
-			</div>
+			<span className="icon-con">
+				<img src={instagramImg} alt="" />
+				<span>Instagram</span>
+			</span>
+
+			<span className="icon-con">
+				<img src={tiktokImg} alt="" />
+				<span>Tiktok</span>
+			</span>
+
+			<span className="icon-con">
+				<img src={facebookImg} alt="" />
+				<span>facebook</span>
+			</span>
+
+			<span className="icon-con">
+				<img src={youtubeImg} alt="" />
+				<span>Youtube</span>
+			</span>
 		</div>
 	);
 };
 
 export default SocialLinks;
+
+// #6592e6;

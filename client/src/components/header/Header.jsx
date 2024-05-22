@@ -10,7 +10,7 @@ const Header = () => {
 			</span>
 			<div className="nav">
 				<span>home</span>
-				<span>about us</span>
+				<span>who we are</span>
 				<span>get in touch</span>
 			</div>
 			<span>

@@ -8,7 +8,7 @@ const Hero = () => {
 		words: [
 			"join us today at RCCG JESUS CHOSEN GENERATION!!!",
 			`it's a wonderful opportunity to connect with others,find encouragement, and grow spiritually.`,
-			`join us at church this sunday for an uplifting experience filled with inspiring messages and God's presence.`,
+			`join us at church every sunday for an uplifting experience filled with inspiring messages and God's presence.`,
 		],
 		loop: {},
 		typeSpeed: 120,

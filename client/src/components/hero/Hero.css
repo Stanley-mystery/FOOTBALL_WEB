@@ -27,6 +27,7 @@
 }
 .hero-con > :nth-child(1) {
 	font-weight: bold;
+	font-style: italic;
 	color: orange;
 }
 
