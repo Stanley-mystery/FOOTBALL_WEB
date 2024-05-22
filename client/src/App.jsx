@@ -1,11 +1,14 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/header/Header";
+
+import Hero from "./components/hero/Hero";
+import SocialLinks from "./components/socialLinks/SocialLinks";
 
 const App = () => {
 	return (
 		<>
-			<Header />
+			<Hero />
+			<SocialLinks />
 		</>
 	);
 };

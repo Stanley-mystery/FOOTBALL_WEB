@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import logo from "../../assets/logo.png";
-
+import { FaPhone } from "react-icons/fa";
 const Header = () => {
 	return (
 		<div className="Header">
@@ -11,9 +11,11 @@ const Header = () => {
 			<div className="nav">
 				<span>home</span>
 				<span>about us</span>
-				<span>contact</span>
+				<span>get in touch</span>
 			</div>
-			<span>join live</span>
+			<span>
+				<FaPhone />
+			</span>
 		</div>
 	);
 };

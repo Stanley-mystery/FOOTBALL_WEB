@@ -1,0 +1,27 @@
+.SocialLinks {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 0 3rem;
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+}
+
+.title {
+	text-transform: uppercase;
+	font-size: 5rem;
+	margin-left: 15rem;
+	font-weight: bold;
+	color: orange;
+	width: 60rem;
+}
+
+.con {
+	width: 50rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2rem;
+}
