@@ -32,5 +32,3 @@ const SocialLinks = () => {
 };
 
 export default SocialLinks;
-
-// #6592e6;
