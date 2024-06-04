@@ -1,17 +1,21 @@
 import React from "react";
 import "./App.css";
-
-import Hero from "./components/hero/Hero";
-import SocialLinks from "./components/socialLinks/SocialLinks";
-import Offers from "./components/offers/Offers";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import AboutUs from "./pages/AboutUs";
+import GetInTouch from "./pages/getInTouch/GetInTouch";
+import PhotoLab from "./pages/PhotoLab";
 
 const App = () => {
 	return (
-		<>
-			<Hero />
-			<SocialLinks />
-			<Offers />
-		</>
+		<BrowserRouter>
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/aboutUs" element={<AboutUs />} />
+				<Route path="/getInTouch" element={<GetInTouch />} />
+				<Route path="/photoLab" element={<PhotoLab />} />
+			</Routes>
+		</BrowserRouter>
 	);
 };
 
