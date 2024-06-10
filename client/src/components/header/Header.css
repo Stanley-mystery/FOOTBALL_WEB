@@ -100,7 +100,6 @@ body {
 	gap: 1rem;
 	background-color: rgba(8, 8, 221, 0.322);
 	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-	z-index: 1;
 	margin-top: 10px;
 }
 

@@ -1,7 +1,6 @@
 .SocialLinks {
 	display: flex;
 	align-items: center;
-
 	background-color: white;
 	gap: 5rem;
 	padding: 1rem 3rem;
@@ -9,20 +8,25 @@
 	height: 70px;
 }
 
-.icon-con {
+.lnk {
 	margin-left: 5rem;
 	display: flex;
+	color: black;
 	align-items: center;
 	gap: 4rem;
 }
 
-.icon-con > :nth-child(1) {
+.lnk > :nth-child(1) {
 	width: 50px;
 	cursor: pointer;
 }
 
-.icon-con > :nth-child(2) {
+.lnk > :nth-child(2) {
 	cursor: pointer;
 	font-size: 20px;
 	font-weight: bold;
+}
+
+.lnk {
+	text-decoration: none;
 }

@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
-import GetInTouch from "./pages/getInTouch/GetInTouch";
+import GetInTouch from "./pages/GetInTouch";
 import PhotoLab from "./pages/PhotoLab";
 
 const App = () => {

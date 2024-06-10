@@ -1,7 +1,14 @@
 import React from "react";
+import AboutHero from "../components/aboutHero/AboutHero";
+import AboutUsContent from "../components/aboutUsContent/AboutUsContent";
 
 const AboutUs = () => {
-	return <div>AboutUs</div>;
+	return (
+		<>
+			<AboutHero />
+			<AboutUsContent />
+		</>
+	);
 };
 
 export default AboutUs;
