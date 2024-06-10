@@ -52,7 +52,7 @@ body {
 }
 
 .shop {
-	background-color: rgb(235, 235, 235);
+	background-color: white;
 	display: flex;
 	color: black;
 	font-weight: bold;
@@ -66,5 +66,5 @@ body {
 }
 
 .shop:hover {
-	background-color: white;
+	background-color: #ffe605;
 }
