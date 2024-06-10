@@ -1,8 +1,6 @@
-:root {
-	--darkBlue: rgba(2, 2, 95, 0.911);
-	--lightOrange: rgb(250, 174, 34);
-	--lightBlue: rgb(120, 120, 245);
-}
+/* * {
+	font-family: ;
+} */
 
 ::-webkit-scrollbar {
 	display: none;

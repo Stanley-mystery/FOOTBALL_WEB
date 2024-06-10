@@ -1,0 +1,46 @@
+.Hero {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../../assets/banner.png");
+	width: 100%;
+	height: 720px;
+	object-fit: cover;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	gap: 6rem;
+	padding: 1rem 2rem;
+}
+
+.hero-content {
+	display: flex;
+	flex-direction: column;
+	width: 1000px;
+	height: 152px;
+	top: 286px;
+	left: 98px;
+	gap: 1rem;
+	margin-left: 8.5rem;
+}
+
+.hero-content > :nth-child(1) {
+	text-transform: uppercase;
+	color: #5bff22;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.64px;
+}
+.hero-content > :nth-child(2) {
+	text-transform: uppercase;
+	color: white;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 76.38px;
+}
+.hero-content > :nth-child(2) > :nth-child(1) {
+	text-transform: uppercase;
+	color: #ffe605;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 76.38px;
+}
