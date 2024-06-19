@@ -19,18 +19,13 @@
 
 .flex {
 	display: grid;
-	grid-template-columns: 300px 300px 300px 300px;
+	grid-template-columns: 290px 290px 290px 290px;
 	overflow: hidden;
 	width: 100%;
 	align-items: center;
 	justify-content: center;
 	gap: 0.5rem;
 }
-
-/* .flex-container {
-	width: 291px;
-	height: 450px;
-} */
 
 .flex-item > img {
 	width: 100%;

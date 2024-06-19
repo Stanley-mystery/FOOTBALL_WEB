@@ -58,9 +58,7 @@ body {
 	font-weight: bold;
 	align-items: center;
 	justify-content: center;
-	width: 70rem;
-	height: 2rem;
-	padding: 1rem 3rem;
+	padding: 1rem 2rem;
 	cursor: pointer;
 	transition: 0.5s;
 }
