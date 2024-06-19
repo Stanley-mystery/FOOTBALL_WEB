@@ -5,6 +5,7 @@ import HomePageAbout from "../components/homepageAbout/HomePageAbout";
 import FeaturedTeams from "../components/featuredTeam/FeaturedTeams";
 import OnlineStore from "../components/onlineStore/OnlineStore";
 import Interest from "../components/interest/Interest";
+import Footer from "../components/footer/Footer";
 
 const Home = () => {
 	return (
@@ -15,6 +16,7 @@ const Home = () => {
 			<FeaturedTeams />
 			<OnlineStore />
 			<Interest />
+			<Footer />
 		</>
 	);
 };

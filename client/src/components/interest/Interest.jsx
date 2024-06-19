@@ -34,6 +34,7 @@ const Interest = () => {
 					</button>
 				</form>
 			</div>
+			<div className="white-spacing"></div>
 		</div>
 	);
 };
