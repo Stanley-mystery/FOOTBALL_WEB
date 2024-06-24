@@ -2,9 +2,19 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import About from "./pages/About";
+import Teams from "./pages/Teams";
 
 const App = () => {
-	return <Home />;
+	return (
+		<BrowserRouter>
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/about" element={<About />} />
+				<Route path="/teams" element={<Teams />} />
+			</Routes>
+		</BrowserRouter>
+	);
 };
 
 export default App;

@@ -1,0 +1,57 @@
+.About-tour {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #3f3194;
+	height: 477px;
+	width: 100%;
+	margin-top: 3rem;
+	padding: 1rem 2rem;
+}
+
+.at-container {
+	display: flex;
+	align-items: center;
+	width: 70rem;
+	gap: 10rem;
+}
+
+.at-left {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.at-left > :nth-child(1) {
+	text-transform: uppercase;
+	color: #ffe605;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.64px;
+}
+
+.at-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	width: 521px;
+}
+
+.at-text {
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19.09px;
+}
+
+.at-right > :nth-child(1) {
+	width: 365px;
+	height: 343px;
+}
+
+.span-text {
+	color: #ffe605;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19.09px;
+}

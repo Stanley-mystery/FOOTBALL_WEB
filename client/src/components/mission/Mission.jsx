@@ -5,9 +5,9 @@ import logo from "../../assets/coalCityLogo.png";
 const Mission = () => {
 	return (
 		<div className="Mission">
-			<span className="m-logo">
+			{/* <span className="m-logo">
 				<img src={logo} alt="" />
-			</span>
+			</span> */}
 			<div className="mission-content">
 				<div className="m-contanier">
 					<span>1</span>

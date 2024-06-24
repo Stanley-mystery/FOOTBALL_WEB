@@ -1,8 +1,8 @@
-.Hero {
+.About-hero {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-		url("../../assets/banner.png");
+		url("../../assets/aboutimg.png");
 	width: 100%;
-	height: 700px;
+	height: 500px;
 	object-fit: cover;
 	background-position: center;
 	background-size: cover;
@@ -12,36 +12,29 @@
 	padding: 1rem;
 }
 
-.hero-content {
+.a-hero-content {
 	display: flex;
 	flex-direction: column;
-	width: 1000px;
-	height: 152px;
+	width: 900px;
+	height: 200px;
 	top: 286px;
 	left: 98px;
 	gap: 1rem;
-	margin-top: 15rem;
-	margin-left: 8.5rem;
+	margin-top: 13rem;
+	margin-left: 23rem;
 }
 
-.hero-content > :nth-child(1) {
+.a-hero-content > :nth-child(1) {
 	text-transform: uppercase;
-	color: #5bff22;
+	color: #ffe605;
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 28.64px;
 }
-.hero-content > :nth-child(2) {
+.a-hero-content > :nth-child(2) {
 	text-transform: uppercase;
 	color: white;
-	font-size: 50px;
-	font-weight: 700;
-	line-height: 76.38px;
-}
-.hero-content > :nth-child(2) > :nth-child(1) {
-	text-transform: uppercase;
-	color: #ffe605;
-	font-size: 50px;
+	font-size: 64px;
 	font-weight: 700;
 	line-height: 76.38px;
 }

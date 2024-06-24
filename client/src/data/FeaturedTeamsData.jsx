@@ -10,49 +10,49 @@ import image8 from "../assets/team8.png";
 const FeaturedTeamsDatas = [
 	{
 		image: image1,
-		teamName1: "Rangers Football Club",
+		teamName: "Rangers Football Club",
 		teamDetails1:
 			"Rangers International Football Club, commonly known as Enugu Rangers, is a Nigerian football team founded in 1970. Based in Enugu, the Rangers play their home games at the Nnamdi Azikiwe Stadium popularly called THE CATHEDRAL",
 	},
 	{
 		image: image2,
-		teamName2: "Eyimba Football Club",
+		teamName: "Eyimba Football Club",
 		teamDetails2:
 			"Rangers International Football Club, commonly known as Enugu Rangers, is a Nigerian football team founded in 1970. Based in Enugu, the Rangers play their home games at the Nnamdi Azikiwe Stadium popularly called THE CATHEDRAL",
 	},
 	{
 		image: image3,
-		teamName3: "Kano Pillars Football Club",
+		teamName: "Kano Pillars Football Club",
 		teamDetails3:
 			"Rangers International Football Club, commonly known as Enugu Rangers, is a Nigerian football team founded in 1970. Based in Enugu, the Rangers play their home games at the Nnamdi Azikiwe Stadium popularly called THE CATHEDRAL",
 	},
 	{
 		image: image4,
-		teamName4: "Remo Stars Football Club",
+		teamName: "Remo Stars Football Club",
 		teamDetails4:
 			"Rangers International Football Club, commonly known as Enugu Rangers, is a Nigerian football team founded in 1970. Based in Enugu, the Rangers play their home games at the Nnamdi Azikiwe Stadium popularly called THE CATHEDRAL",
 	},
 	{
 		image: image5,
-		teamName5: "Football Club Kallon",
+		teamName: "Football Club Kallon",
 		teamDetails5:
 			"Rangers International Football Club, commonly known as Enugu Rangers, is a Nigerian football team founded in 1970. Based in Enugu, the Rangers play their home games at the Nnamdi Azikiwe Stadium popularly called THE CATHEDRAL",
 	},
 	{
 		image: image6,
-		teamName6: "Coton Football Club",
+		teamName: "Coton Football Club",
 		teamDetails6:
 			"Rangers International Football Club, commonly known as Enugu Rangers, is a Nigerian football team founded in 1970. Based in Enugu, the Rangers play their home games at the Nnamdi Azikiwe Stadium popularly called THE CATHEDRAL",
 	},
 	{
 		image: image7,
-		teamName7: "Gor Mahia Football Club",
+		teamName: "Gor Mahia Football Club",
 		teamDetails7:
 			"Rangers International Football Club, commonly known as Enugu Rangers, is a Nigerian football team founded in 1970. Based in Enugu, the Rangers play their home games at the Nnamdi Azikiwe Stadium popularly called THE CATHEDRAL",
 	},
 	{
 		image: image8,
-		teamName8: "Esporte Clube Vitoria",
+		teamName: "Esporte Clube Vitoria",
 		teamDetails8:
 			"Rangers International Football Club, commonly known as Enugu Rangers, is a Nigerian football team founded in 1970. Based in Enugu, the Rangers play their home games at the Nnamdi Azikiwe Stadium popularly called THE CATHEDRAL",
 	},

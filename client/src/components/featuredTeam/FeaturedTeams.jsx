@@ -14,6 +14,7 @@ const FeaturedTeams = () => {
 						style={{
 							backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 						url(${teamData.image})`,
+							position: "relative",
 							width: "291px",
 							height: "450px",
 							objectFit: "cover",
@@ -21,7 +22,9 @@ const FeaturedTeams = () => {
 							backgroundSize: "cover",
 							cursor: "pointer",
 						}}
-					></div>
+					>
+						<span className="team-name">{teamData.teamName}</span>
+					</div>
 				))}
 			</div>
 		</div>

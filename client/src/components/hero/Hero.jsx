@@ -5,8 +5,8 @@ import Header from "../header/Header";
 const Hero = () => {
 	return (
 		<>
+			<Header />
 			<div className="Hero">
-				<Header />
 				<div className="hero-content">
 					<span>WELCOME </span>
 					<span>
