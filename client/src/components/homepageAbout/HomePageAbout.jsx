@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomePageAbout.css";
+import { Link } from "react-router-dom";
 
 const HomePageAbout = () => {
 	return (
@@ -14,7 +15,12 @@ const HomePageAbout = () => {
 					feature as the host team. The 2024 competition will feature 4 teams
 					from the NPFL and 4 teams from outside the country.
 				</span>
-				<span>read more </span>
+				<span>
+					{" "}
+					<Link className="nav-link" to={"/about"}>
+						read more{" "}
+					</Link>
+				</span>
 			</div>
 		</div>
 	);

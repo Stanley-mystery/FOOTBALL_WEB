@@ -1,7 +1,10 @@
-/* * {
-	font-family: ;
-} */
-
 ::-webkit-scrollbar {
 	display: none;
+}
+
+.nav-link {
+	transition: 0.5s;
+}
+.nav-link:hover {
+	color: green;
 }
