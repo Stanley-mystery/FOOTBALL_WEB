@@ -9,20 +9,20 @@
 	padding: 1rem 2rem;
 }
 
-.at-container {
+.a-t-container {
 	display: flex;
 	align-items: center;
 	width: 70rem;
 	gap: 10rem;
 }
 
-.at-left {
+.a-t-left {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
 }
 
-.at-left > :nth-child(1) {
+.a-t-left > :nth-child(1) {
 	text-transform: uppercase;
 	color: #ffe605;
 	font-size: 24px;
@@ -30,21 +30,21 @@
 	line-height: 28.64px;
 }
 
-.at-wrapper {
+.a-t-wrapper {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
 	width: 521px;
 }
 
-.at-text {
+.a-t-text {
 	color: white;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 19.09px;
 }
 
-.at-right > :nth-child(1) {
+.a-t-right > :nth-child(1) {
 	width: 365px;
 	height: 343px;
 }

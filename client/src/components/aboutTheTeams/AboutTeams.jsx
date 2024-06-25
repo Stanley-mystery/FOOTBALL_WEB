@@ -58,11 +58,11 @@ const AboutTeams = () => {
 							Stadium popularly called THE CATHEDRAL… Enugu Rangers FC is the
 							only Nigerian club never to have been relegated from the Nigeria
 							Premier League. Enugu Rangers are the Team Hosts of Coal City
-							Int’l Cup 2024.
+							Int`l Cup 2024.
 						</span>
 
 						<span className="team-h">
-							Enugu Rangers are the Team Hosts of Coal City Int’l Cup 2024.
+							Enugu Rangers are the Team Hosts of Coal City Int`l Cup 2024.
 						</span>
 					</div>
 				</div>
@@ -75,12 +75,12 @@ const AboutTeams = () => {
 						<span className="at-text-line">Enyimba Football Club</span>
 						<span className="t-text">
 							Enyimba FC is a Nigerian football club based in the city of Aba,
-							Abia State which plays in the NPFL. Their name means People’s
+							Abia State which plays in the NPFL. Their name means People`s
 							Elephant in Igbo language. Founded in 1976, the club rose to
 							prominence in the 2000s and is considered the most successful
 							Nigerian football club as they won two African Champions League
 							titles, nine Nigerian championships and four Federation Cups since
-							2001. Their most-recent league glory came in the 2022–23 season.  
+							2001. Their most-recent league glory came in the 2022-23 season. 
 						</span>
 					</div>
 				</div>
@@ -103,9 +103,9 @@ const AboutTeams = () => {
 							Professional Football League, the top division of the Nigeria
 							Football League system. They are nicknamed the Sky Blue Stars.
 							Rated one of the richest clubs in Nigeria, Remo has a reputation
-							of having strong feeder team programs that support it’s football
+							of having strong feeder team programs that support it`s football
 							developmental structure. Remo Stars FC will be playing at the Coal
-							City Int’l Cup 2024.
+							City Int`l Cup 2024.
 						</span>
 					</div>
 				</div>
@@ -123,7 +123,7 @@ const AboutTeams = () => {
 							League. Their home stadium is Sani Abacha Stadium. Kano Pillars FC
 							was founded in 1990, the year the professional association
 							football league started in Nigeria. Kano Pillars FC will be
-							playing at the Coal City Int’l Cup 2024.
+							playing at the Coal City Int`l Cup 2024.
 						</span>
 					</div>
 				</div>
@@ -147,7 +147,7 @@ const AboutTeams = () => {
 							Premier League and play their home games at the National Stadium
 							in Freetown. It is owned by Mohammed Kallon, a renowned football
 							star with vast experience in Europe.  FC Kallon will be in Enugu
-							this August for the Coal City Int’l Cup.
+							this August for the Coal City Int`l Cup.
 						</span>
 					</div>
 				</div>
@@ -165,7 +165,7 @@ const AboutTeams = () => {
 							Donning red and black stripes, Vitória competes in the top tier
 							Campeonato Brasileiro Série A and the state league Campeonato
 							Baiano. Their home stadium is the Estádio Manoel Barradas. Esporte
-							Clube Vitória will play at the Coal City Int’l Cup 2024.
+							Clube Vitória will play at the Coal City Int`l Cup 2024.
 						</span>
 					</div>
 				</div>
@@ -183,14 +183,14 @@ const AboutTeams = () => {
 					<div className="at-wrapper">
 						<span className="at-text-line">Gor Mahia Football Club</span>
 						<span className="t-text">
-							Gor Mahia Football Club, also known as K’Ogalo is a football club
+							Gor Mahia Football Club, also known as K`Ogalo is a football club
 							based in Nairobi, Kenya. They have won the Kenyan Premier League
-							20 times, and have also won the FKF President’s Cup 11 times. It
+							20 times, and have also won the FKF President`s Cup 11 times. It
 							is the first and only team from Kenya to win an African
-							continental title to date, having won the African Cup Winners’ Cup
-							in 1987 after previously reaching the final in 1979.  GOR Mahia
-							Football Club will be in Enugu this August for the Coal City Int’l
-							Cup.
+							continental title to date, having won the African Cup Winners``
+							Cup in 1987 after previously reaching the final in 1979.  GOR
+							Mahia Football Club will be in Enugu this August for the Coal City
+							Int`l Cup.
 						</span>
 					</div>
 				</div>
@@ -203,14 +203,14 @@ const AboutTeams = () => {
 						<span className="at-text-line">Coton Football Club</span>
 						<span className="t-text">
 							Coton Football Club, is a Beninese football club based in Ouidah,
-							that competes in the Benin Premier League. During the 2021–2022
+							that competes in the Benin Premier League. During the 2021-2022
 							season, the club, which was competing in the second division, was
 							invited to participate in the Benin national premier division for
 							the first time, blending teams from both the premier and second
-							divisions, much like the 2020–2021 season. The club finished the
+							divisions, much like the 2020=2021 season. The club finished the
 							season in first place, clinching its maiden championship title.
 							Coton Football Club will be in Enugu this August for the Coal City
-							Int’l Cup.
+							Int`l Cup.
 						</span>
 					</div>
 				</div>

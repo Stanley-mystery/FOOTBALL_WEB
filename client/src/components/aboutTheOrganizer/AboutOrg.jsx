@@ -12,7 +12,7 @@ const AboutOrg = () => {
 				<div className="ao-left">
 					<span>ABOUT THE ORGANIZER</span>
 					<div className="ao-wrapper">
-						<span className="sponsor-name">Ski Hi Entertainment.</span>
+						<span className="sponsor-name">Ski-Hi Entertainment.</span>
 						<span className="ao-text">
 							Ski-Hi Entertainment or simply Ski-Hi, is a Nigerian organization
 							set up to provide family entertainment to a whole spectrum of
@@ -21,7 +21,7 @@ const AboutOrg = () => {
 							together.
 						</span>
 						<span className="ao-text">
-							  Coal City Int’l Cup is our way of deploying the power of
+							  Coal City Int`l Cup is our way of deploying the power of
 							football in building and developing the socio-economic structure
 							of our society through the universal language of footbal.
 						</span>

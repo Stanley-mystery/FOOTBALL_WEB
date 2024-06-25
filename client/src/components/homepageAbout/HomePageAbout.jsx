@@ -15,12 +15,9 @@ const HomePageAbout = () => {
 					feature as the host team. The 2024 competition will feature 4 teams
 					from the NPFL and 4 teams from outside the country.
 				</span>
-				<span>
-					{" "}
-					<Link className="nav-link" to={"/about"}>
-						read more{" "}
-					</Link>
-				</span>
+				<Link className="nav-link" to={"/about"}>
+					<span> Read more </span>
+				</Link>
 			</div>
 		</div>
 	);

@@ -29,7 +29,11 @@ const Header = () => {
 					</Link>{" "}
 				</span>
 				<span className="nav-menu">contact us </span>
-				<span className="nav-menu spon">sponsorship and partnership </span>
+				<span className="nav-menu spon">
+					<Link className="nav-link" to={"/sponsorship"}>
+						sponsorship and partnership
+					</Link>{" "}
+				</span>
 			</div>
 			<div className="header-btn">
 				<span className="store">store</span>
