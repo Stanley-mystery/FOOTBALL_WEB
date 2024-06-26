@@ -6,6 +6,10 @@ import Teams from "../../pages/Teams";
 import Sponsorship from "../../pages/Sponsorship";
 
 import { AnimatePresence } from "framer-motion";
+import Tickets from "../../pages/Tickets";
+import GroupStage from "../../pages/GroupStage";
+import SemiFinal from "../../pages/SemiFinal";
+import Finals from "../../pages/Finals";
 
 const AnimatedRoutes = () => {
 	const location = useLocation();
@@ -16,6 +20,10 @@ const AnimatedRoutes = () => {
 				<Route path="/about" element={<About />} />
 				<Route path="/teams" element={<Teams />} />
 				<Route path="/sponsorship" element={<Sponsorship />} />
+				<Route path="/tickets" element={<Tickets />} />
+				<Route path="/groupStage" element={<GroupStage />} />
+				<Route path="/semiFinal" element={<SemiFinal />} />
+				<Route path="/final" element={<Finals />} />
 			</Routes>
 		</AnimatePresence>
 	);

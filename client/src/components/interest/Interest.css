@@ -36,7 +36,7 @@
 	padding: 5rem 4rem;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	width: 849px;
-	height: 545px;
+	height: 540px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -46,7 +46,7 @@
 .form-group {
 	margin-bottom: 15px;
 	width: 749px;
-	height: 80px;
+	height: 40px;
 	border: 1px solid #c6b6b6;
 	display: flex;
 	align-items: center;

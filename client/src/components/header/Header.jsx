@@ -28,7 +28,13 @@ const Header = () => {
 						teams
 					</Link>{" "}
 				</span>
-				<span className="nav-menu">contact us </span>
+
+				<span className="nav-menu">
+					<Link className="nav-link" to={"/contactUs"}>
+						contact us
+					</Link>{" "}
+				</span>
+
 				<span className="nav-menu spon">
 					<Link className="nav-link" to={"/sponsorship"}>
 						sponsorship and partnership
@@ -36,8 +42,9 @@ const Header = () => {
 				</span>
 			</div>
 			<div className="header-btn">
-				<span className="store">store</span>
-				<span className="tickets">tickets</span>
+				<Link className=" ticket" to={"/tickets"}>
+					<span> tickets</span>
+				</Link>
 			</div>
 		</div>
 	);

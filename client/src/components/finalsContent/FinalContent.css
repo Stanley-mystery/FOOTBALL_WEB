@@ -1,0 +1,94 @@
+.GroupStageContent {
+	display: flex;
+	flex-direction: column;
+	margin-top: 9rem;
+	width: 100%;
+	height: 50rem;
+}
+
+.gs-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 3rem;
+	margin-left: 2rem;
+	gap: 2rem;
+}
+
+.gs-teams {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 2px solid #beb9b9;
+	padding: 1rem 2rem;
+	width: 70rem;
+	height: 15rem;
+}
+
+.gs-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.gs-stage {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 38.19px;
+}
+
+.gs-c {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 50rem;
+	/* background-color: green; */
+	padding: 1rem 2rem;
+}
+
+.gs-c > :nth-child(1) {
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 33.41px;
+}
+
+.gs-c > :nth-child(2) {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10rem;
+	width: 30rem;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 34.68px;
+	/* background-color: blue; */
+	margin-top: 2rem;
+	margin-left: 3rem;
+}
+
+.gs-c > :nth-child(1) > :nth-child(2) {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 34.68px;
+}
+
+.gs-tick {
+	background-color: #d1e4ff;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 34.68px;
+	width: 10rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25px;
+	padding: 1rem 2rem;
+}
+
+.gs-tick:hover {
+	background-color: #b6d1f7;
+	cursor: pointer;
+}

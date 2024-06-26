@@ -1,0 +1,87 @@
+.TicketsPage {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #e4bcbc;
+	width: 100%;
+	height: 70rem;
+}
+
+.TicketsPage > :nth-child(1) {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 50px;
+	background-color: white;
+	width: 70rem;
+	height: 50rem;
+	padding: 3rem 4rem;
+	margin-top: 10rem;
+}
+
+.tickets-p-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 65rem;
+	border-bottom: 2px solid #beb9b9;
+	cursor: pointer;
+	height: 100%;
+	padding: 1rem 2rem;
+	transition: 0.5s;
+}
+
+.tickets-p-wrapper:hover {
+	background-color: #e4bcbc8a;
+	padding: 2rem 3rem;
+	border-radius: 25px;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3),
+		-5px -5px 15px rgba(255, 255, 255, 0.3);
+}
+
+.stages {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.stages > :nth-child(1) {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 42.96px;
+}
+
+.stages > :nth-child(2) {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 34.68px;
+	color: #404040;
+}
+
+.stages > :nth-child(3) {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 34.68px;
+	color: #404040;
+}
+
+.tickets-p-wrapper > :nth-child(2) {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 34.68px;
+	background-color: #d1e4ff;
+	padding: 1rem 2rem;
+	border-radius: 25px;
+}
+
+.tickets-p-wrapper > :nth-child(2):hover {
+	background-color: #b1cefa;
+}
+
+.stages-link {
+	text-decoration: none;
+	color: black;
+}
