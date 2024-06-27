@@ -1,6 +1,7 @@
 import React from "react";
 import TeamsHero from "../components/teamHero/TeamsHero";
 import AboutTeams from "../components/aboutTheTeams/AboutTeams";
+import ScrollUpButton from "../components/scrollUpButton/ScrollUpButton";
 import Footer from "../components/footer/Footer";
 import { motion } from "framer-motion";
 
@@ -13,6 +14,7 @@ const Teams = () => {
 		>
 			<TeamsHero />
 			<AboutTeams />
+			<ScrollUpButton />
 			<Footer />
 		</motion.div>
 	);

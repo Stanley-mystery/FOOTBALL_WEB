@@ -2,6 +2,7 @@ import React from "react";
 import GroupStageContent from "../components/groupStageContent/GroupStageContent";
 import Footer from "../components/footer/Footer";
 import { motion } from "framer-motion";
+import ScrollUpButton from "../components/scrollUpButton/ScrollUpButton";
 
 function GroupStage() {
 	return (
@@ -11,6 +12,7 @@ function GroupStage() {
 			exit={{ opacity: 0 }}
 		>
 			<GroupStageContent />
+			<ScrollUpButton />
 			<Footer />
 		</motion.div>
 	);

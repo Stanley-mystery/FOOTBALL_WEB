@@ -1,0 +1,10 @@
+.scroll > :nth-child(1) {
+	width: 3rem;
+	position: fixed;
+	bottom: 40px;
+	right: 50px;
+}
+
+.scroll:hover {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}

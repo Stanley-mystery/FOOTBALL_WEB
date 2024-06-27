@@ -7,6 +7,7 @@ import OnlineStore from "../components/onlineStore/OnlineStore";
 import Interest from "../components/interest/Interest";
 import Footer from "../components/footer/Footer";
 import { motion } from "framer-motion";
+import ScrollUpButton from "../components/scrollUpButton/ScrollUpButton";
 
 const Home = () => {
 	return (
@@ -21,6 +22,7 @@ const Home = () => {
 			<FeaturedTeams />
 			<OnlineStore />
 			<Interest />
+			<ScrollUpButton />
 			<Footer />
 		</motion.div>
 	);

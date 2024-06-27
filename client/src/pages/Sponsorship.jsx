@@ -3,6 +3,7 @@ import SponsorshipHero from "../components/sponsorshipHero/SponsorshipHero";
 import SponsorshipPageContent from "../components/sponsorshipPageContent/SponsorshipPageContent";
 import Footer from "../components/footer/Footer";
 import { motion } from "framer-motion";
+import ScrollUpButton from "../components/scrollUpButton/ScrollUpButton";
 
 const Sponsorship = () => {
 	return (
@@ -13,6 +14,7 @@ const Sponsorship = () => {
 		>
 			<SponsorshipHero />
 			<SponsorshipPageContent />
+			<ScrollUpButton />
 			<Footer />
 		</motion.div>
 	);

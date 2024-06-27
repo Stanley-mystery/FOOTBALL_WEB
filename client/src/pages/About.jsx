@@ -5,6 +5,7 @@ import AboutOrg from "../components/aboutTheOrganizer/AboutOrg";
 import Interest from "../components/interest/Interest";
 import Footer from "../components/footer/Footer";
 import { motion } from "framer-motion";
+import ScrollUpButton from "../components/scrollUpButton/ScrollUpButton";
 
 const About = () => {
 	return (
@@ -17,6 +18,7 @@ const About = () => {
 			<AboutTour />
 			<AboutOrg />
 			<Interest />
+			<ScrollUpButton />
 			<Footer />
 		</motion.div>
 	);
