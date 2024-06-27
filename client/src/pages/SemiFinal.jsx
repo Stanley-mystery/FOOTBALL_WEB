@@ -1,6 +1,7 @@
 import React from "react";
 import SemifinalsContent from "../components/semifinalContent/SemifinalsContent";
 import { motion } from "framer-motion";
+import Footer from "../components/footer/Footer";
 
 const SemiFinal = () => {
 	return (
@@ -10,6 +11,7 @@ const SemiFinal = () => {
 			exit={{ opacity: 0 }}
 		>
 			<SemifinalsContent />
+			<Footer />
 		</motion.div>
 	);
 };

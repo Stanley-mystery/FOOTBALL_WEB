@@ -29,12 +29,6 @@ const Header = () => {
 					</Link>{" "}
 				</span>
 
-				<span className="nav-menu">
-					<Link className="nav-link" to={"/contactUs"}>
-						contact us
-					</Link>{" "}
-				</span>
-
 				<span className="nav-menu spon">
 					<Link className="nav-link" to={"/sponsorship"}>
 						sponsorship and partnership

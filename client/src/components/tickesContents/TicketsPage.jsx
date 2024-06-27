@@ -14,7 +14,7 @@ const TicketsPage = () => {
 							<div className="stages">
 								<span>Group Stage</span>
 								<span>1 - 6 Aug 2024</span>
-								<span>view</span>
+								<span>view more</span>
 							</div>
 						</Link>
 						<span>Buy Tickets</span>
@@ -25,7 +25,7 @@ const TicketsPage = () => {
 							<div className="stages">
 								<span>Semi Final</span>
 								<span>8 - 9 Aug 2024</span>
-								<span>view</span>
+								<span>view more</span>
 							</div>
 						</Link>
 						<span>Buy Tickets</span>
@@ -36,7 +36,7 @@ const TicketsPage = () => {
 							<div className="stages">
 								<span>Final</span>
 								<span>11 Aug 2024</span>
-								<span>view</span>
+								<span>view more</span>
 							</div>
 						</Link>
 						<span>Buy Tickets</span>

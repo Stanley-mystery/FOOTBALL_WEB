@@ -4,7 +4,7 @@ import "./Interest.css";
 const Interest = () => {
 	return (
 		<div className="Interest">
-			<span>what is your interest?</span>
+			<span>contact us</span>
 			<span>
 				To receive information about CCC 2024, please enter the data below,
 				click on “Send”, and then check your mailbox. You will receive the

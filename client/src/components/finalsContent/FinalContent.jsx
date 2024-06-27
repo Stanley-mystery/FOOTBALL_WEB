@@ -2,12 +2,21 @@ import React from "react";
 import "./FinalContent.css";
 import FinalsData from "../../data/FinalsData";
 import Header from "../header/Header";
+import { Link } from "react-router-dom";
 
 const FinalContent = () => {
 	return (
 		<>
 			<Header />
-			<div className="GroupStageContent">
+			<div className="FinalContent">
+				<Link
+					to={"/tickets"}
+					style={{
+						textDecoration: "none",
+					}}
+				>
+					<span className="go-back-btn">Go back</span>
+				</Link>
 				{FinalsData?.map((FinalsData, index) => (
 					<div className="gs-container" key={index}>
 						<span className="gs-stage">{FinalsData.stage}</span>

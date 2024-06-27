@@ -1,9 +1,9 @@
-.GroupStageContent {
+.SemiStageContent {
 	display: flex;
 	flex-direction: column;
 	margin-top: 9rem;
 	width: 100%;
-	height: 50rem;
+	height: 100vh;
 }
 
 .gs-container {
@@ -91,4 +91,24 @@
 .gs-tick:hover {
 	background-color: #b6d1f7;
 	cursor: pointer;
+}
+
+.go-back-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem 2rem;
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	background-color: rgba(0, 128, 0, 0.719);
+	width: 5rem;
+	cursor: pointer;
+	transition: 0.5s;
+	border-radius: 25px;
+	margin-left: 3rem;
+}
+
+.go-back-btn:hover {
+	background-color: green;
 }

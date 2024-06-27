@@ -4,7 +4,6 @@ import Home from "../../pages/Home";
 import About from "../../pages/About";
 import Teams from "../../pages/Teams";
 import Sponsorship from "../../pages/Sponsorship";
-
 import { AnimatePresence } from "framer-motion";
 import Tickets from "../../pages/Tickets";
 import GroupStage from "../../pages/GroupStage";

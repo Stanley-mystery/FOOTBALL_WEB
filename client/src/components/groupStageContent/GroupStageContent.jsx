@@ -2,12 +2,21 @@ import React from "react";
 import "./GroupStageContent.css";
 import Header from "../header/Header";
 import GroupStageData from "../../data/GroupStageData";
+import { Link } from "react-router-dom";
 
 const GroupStageContent = () => {
 	return (
 		<>
 			<Header />
 			<div className="GroupStageContent">
+				<Link
+					to={"/tickets"}
+					style={{
+						textDecoration: "none",
+					}}
+				>
+					<span className="go-back-btn">Go back</span>
+				</Link>
 				{GroupStageData?.map((groupStage, index) => (
 					<div className="gs-container" key={index}>
 						<span className="gs-stage">{groupStage.stage}</span>

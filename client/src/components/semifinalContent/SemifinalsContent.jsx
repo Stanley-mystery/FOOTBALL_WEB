@@ -2,14 +2,24 @@ import React from "react";
 import "./SemifinalsContent.css";
 import Header from "../header/Header";
 import SemiFinalData from "../../data/SemiFinalsData";
+import { Link } from "react-router-dom";
 
 const SemifinalsContent = () => {
 	return (
 		<>
 			<Header />
-			<div className="GroupStageContent">
+			<div className="SemiStageContent">
 				{SemiFinalData?.map((SemiFinal, index) => (
 					<div className="gs-container" key={index}>
+						<Link
+							to={"/tickets"}
+							style={{
+								textDecoration: "none",
+							}}
+						>
+							<span className="go-back-btn">Go back</span>
+						</Link>
+
 						<span className="gs-stage">{SemiFinal.stage}</span>
 						<div className="gs-wrapper">
 							<div className="gs-teams">
