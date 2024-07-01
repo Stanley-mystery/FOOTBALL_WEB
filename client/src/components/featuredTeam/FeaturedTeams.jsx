@@ -3,6 +3,9 @@ import "./FeaturedTeams.css";
 import FeaturedTeamsDatas from "../../data/FeaturedTeamsData";
 
 const FeaturedTeams = () => {
+	const f = document.querySelector(".featured-img");
+	console.log(f);
+	console.log(FeaturedTeamsDatas);
 	return (
 		<div className="FeaturedTeam">
 			<span className="title">featured teams</span>
@@ -23,7 +26,15 @@ const FeaturedTeams = () => {
 							cursor: "pointer",
 						}}
 					>
-						<span className="team-name">{teamData.teamName}</span>
+						<span className="team-name">
+							<img
+								src={teamData.logo}
+								alt=""
+								className="featured-img"
+								width={25}
+							/>
+							{teamData.teamName}
+						</span>
 					</div>
 				))}
 			</div>

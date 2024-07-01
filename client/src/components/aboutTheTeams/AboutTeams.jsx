@@ -9,6 +9,14 @@ import FCKallonImg from "../../assets/team5.png";
 import EsporteClubeVitóriaImg from "../../assets/team6.png";
 import GorMahiaFootballClubImg from "../../assets/team7.png";
 import CotonFootballClub from "../../assets/team8.png";
+import ran from "../../assets/conton.png";
+import eyim from "../../assets/Eyim.png";
+import kan from "../../assets/kano.png";
+import rem from "../../assets/remo.png";
+import kall from "../../assets/koll.png";
+import coton from "../../assets/conton.png";
+import gor from "../../assets/gor.png";
+import espor from "../../assets/cori.png";
 
 const AboutTeams = () => {
 	return (
@@ -50,7 +58,10 @@ const AboutTeams = () => {
 				</div>
 				<div className="t-left">
 					<div className="at-wrapper">
-						<span className="at-text-line">Rangers Football Club</span>
+						<span className="at-text-line">
+							<img src={ran} alt="" />
+							Rangers Football Club
+						</span>
 						<span className="t-text">
 							Rangers International Football Club, commonly known as Enugu
 							Rangers, is a Nigerian football team founded in 1970. Based in
@@ -72,7 +83,10 @@ const AboutTeams = () => {
 			<div className="t-container">
 				<div className="t-left">
 					<div className="at-wrapper">
-						<span className="at-text-line">Enyimba Football Club</span>
+						<span className="at-text-line">
+							<img src={eyim} alt="" />
+							Enyimba Football Club
+						</span>
 						<span className="t-text">
 							Enyimba FC is a Nigerian football club based in the city of Aba,
 							Abia State which plays in the NPFL. Their name means People`s
@@ -96,7 +110,10 @@ const AboutTeams = () => {
 				</div>
 				<div className="t-left">
 					<div className="at-wrapper">
-						<span className="at-text-line">Remo Stars Football Club</span>
+						<span className="at-text-line">
+							<img src={rem} alt="" />
+							Remo Stars Football Club
+						</span>
 						<span className="t-text">
 							Remo Stars Football Club is a professional football club based in
 							Ikenne, Ogun State, Nigeria. The club competes in the Nigeria
@@ -115,7 +132,10 @@ const AboutTeams = () => {
 			<div className="t-container">
 				<div className="t-left">
 					<div className="at-wrapper">
-						<span className="at-text-line">Kano Pillars Football Club</span>
+						<span className="at-text-line">
+							<img src={kan} alt="" />
+							Kano Pillars Football Club
+						</span>
 						<span className="t-text">
 							Kano Pillars Football Club is a Nigerian football club based in
 							Kano, Northern part of Nigeria. They play in the first tier
@@ -139,7 +159,10 @@ const AboutTeams = () => {
 				</div>
 				<div className="t-left">
 					<div className="at-wrapper">
-						<span className="at-text-line">FC Kallon</span>
+						<span className="at-text-line">
+							<img src={kall} alt="" />
+							FC Kallon
+						</span>
 						<span className="t-text">
 							Football Club Kallon, commonly known as F.C. Kallon, is a football
 							club based in Freetown, Sierra Leone. Founded as Sierra Fisheries,
@@ -157,7 +180,10 @@ const AboutTeams = () => {
 			<div className="t-container">
 				<div className="t-left">
 					<div className="at-wrapper">
-						<span className="at-text-line">Esporte Clube Vitória</span>
+						<span className="at-text-line">
+							<img src={espor} alt="" />
+							Esporte Clube Vitória
+						</span>
 						<span className="t-text">
 							Esporte Clube Vitória, often called Vitória, is a Brazilian
 							professional football club founded in 1899. Based in Salvador,
@@ -181,7 +207,10 @@ const AboutTeams = () => {
 				</div>
 				<div className="t-left">
 					<div className="at-wrapper">
-						<span className="at-text-line">Gor Mahia Football Club</span>
+						<span className="at-text-line">
+							<img src={gor} alt="" />
+							Gor Mahia Football Club
+						</span>
 						<span className="t-text">
 							Gor Mahia Football Club, also known as K`Ogalo is a football club
 							based in Nairobi, Kenya. They have won the Kenyan Premier League
@@ -200,7 +229,10 @@ const AboutTeams = () => {
 			<div className="t-container">
 				<div className="t-left">
 					<div className="at-wrapper">
-						<span className="at-text-line">Coton Football Club</span>
+						<span className="at-text-line">
+							<img src={coton} alt="" />
+							Coton Football Club
+						</span>
 						<span className="t-text">
 							Coton Football Club, is a Beninese football club based in Ouidah,
 							that competes in the Benin Premier League. During the 2021-2022

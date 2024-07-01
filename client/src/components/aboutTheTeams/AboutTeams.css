@@ -66,14 +66,22 @@
 .at-right > :nth-child(1) {
 	width: 488px;
 	height: 340px;
+	margin-right: 3rem;
 }
 
 .at-text-line {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
 	color: green;
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 48px;
 	width: 50rem;
+}
+
+.at-text-line > :nth-child(1) {
+	width: 4rem;
 }
 
 .teams-t {

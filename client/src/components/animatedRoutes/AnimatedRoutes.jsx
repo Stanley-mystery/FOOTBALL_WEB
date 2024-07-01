@@ -9,6 +9,8 @@ import Tickets from "../../pages/Tickets";
 import GroupStage from "../../pages/GroupStage";
 import SemiFinal from "../../pages/SemiFinal";
 import Finals from "../../pages/Finals";
+import Signup from "../../pages/Signup";
+import Signin from "../../pages/Signin";
 
 const AnimatedRoutes = () => {
 	const location = useLocation();
@@ -23,6 +25,8 @@ const AnimatedRoutes = () => {
 				<Route path="/groupStage" element={<GroupStage />} />
 				<Route path="/semiFinal" element={<SemiFinal />} />
 				<Route path="/final" element={<Finals />} />
+				<Route path="/signup" element={<Signup />} />
+				<Route path="/signin" element={<Signin />} />
 			</Routes>
 		</AnimatePresence>
 	);
